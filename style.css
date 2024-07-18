@@ -40,33 +40,37 @@ body {
 
     /* apply styles here that will only work up to a screen width of 768p*/
     .fixed-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         position: fixed;
-        bottom: 0;
-        left: 0;
+        bottom: -15px;
+        right: 10px;
         padding: 10px;
-        border: 1px solid #ccc;
+        border-radius: 1rem;
+        background-color: #222222;
         box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.1);
+        align-content: center;
     }
 
     .fixed-div .item {
+        color: #f5910d;
+        font-size: 2rem;
         margin-bottom: 10px;
+        align-self: center;
+        transition: color 1.5s;
     }
 
-    .fixed-div .item:last-child {
-        margin-bottom: 0;
+    .fixed-div .item:hover {
+        color: #D3D3D3;
     }
 
-    header {
-        align-items: center;
-        height: 3rem;
-        padding: 2rem;
-    }
+    header {}
 
-    .fa-bars {
-        scale: 250%;
-    }
+    .fa-bars {}
 
     #ola {
+        margin-top: 10rem;
         margin-left: 5rem;
         padding-top: 3rem;
         padding-left: 10rem;
@@ -102,5 +106,9 @@ body {
         border: 1px solid #ff6d00;
         border-radius: 1rem;
         max-width: fit-content;
+    }
+
+    .sobre_img {
+        width: 15rem;
     }
 }
