@@ -7,6 +7,23 @@ Laranja - #ff6d00
 Laranja Fraco - #f5910d
 Branco - #ffffff
 */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #222222;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
 body {
     background-color: #1a1a1a;
 }
@@ -114,6 +131,7 @@ body {
         align-content: center;
         justify-content: center;
         justify-items: center;
+        margin-bottom: 10rem;
     }
 
     .sobre_card {
