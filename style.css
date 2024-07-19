@@ -56,7 +56,7 @@ body {
     .fixed-div .item {
         color: #f5910d;
         font-size: 2rem;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
         align-self: center;
         transition: color 1.5s;
     }
@@ -108,7 +108,40 @@ body {
         max-width: fit-content;
     }
 
+    #sobre {
+        margin-top: 20rem;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .sobre_card {
+        display: flex;
+        align-items: center;
+        align-content: center;
+        margin-right: 6rem;
+    }
+
     .sobre_img {
         width: 15rem;
+        margin-left: 6rem;
+        border-radius: 3rem;
+    }
+
+    .sobre_text1 {
+        margin-bottom: 2rem;
+    }
+
+    .sobre_text2 {
+        font-size: 2rem;
+        color: #D3D3D3;
+        margin-bottom: 1rem;
+    }
+
+    .sobre_curriculo {
+        text-decoration: underline;
+        color: #ff6d00;
+        font-size: 2rem;
     }
 }
