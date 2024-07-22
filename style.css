@@ -162,4 +162,21 @@ body {
         color: #ff6d00;
         font-size: 2rem;
     }
+
+    #skills {
+        margin-top: 20rem;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10rem;
+    }
+
+    .skills_text1 {
+        margin: auto;
+    }
+
+    .skills_card {
+        margin: auto;
+        display: flex;
+    }
+
 }
