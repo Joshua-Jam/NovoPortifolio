@@ -55,14 +55,41 @@
         </div>
     </section>
     <section id="skills">
-        <h2 class="skills_text1 ola_3 monoton-regular">Minhas Skills</h2>
+        <h2 class="skills_text1 ola_3 monoton-regular">Minhas Habilidades</h2>
         <div class="skills_card">
             <div class="skills_hard">
                 <h3 class="sobre_curriculo monoton-regular">Hard Skills</h3>
+                <p class="skills_skills sobre_text2">HTML</p>
+                <p class="skills_skills sobre_text2">CSS</p>
+                <p class="skills_skills sobre_text2">JavaScript</p>
+                <p class="skills_skills sobre_text2">PHP</p>
+                <p class="skills_skills sobre_text2">Python</p>
             </div>
             <div class="skill_soft">
                 <h3 class="sobre_curriculo monoton-regular">Soft Skills</h3>
+                <p class="skills_skills sobre_text2">Comunicação</p>
+                <p class="skills_skills sobre_text2">Trabalho em Equipe</p>
+                <p class="skills_skills sobre_text2"></p>
+                <p class="skills_skills sobre_text2">Python</p>
             </div>
+        </div>
+    </section>
+    <section id="contatos">
+        <h2 class="contatos_text1 ola_3 monoton-regular">Entre em Contato!</h2>
+        <div class="contato_form">
+            <h2>Contact Us</h2>
+            <form action="send_mail.php" method="POST">
+                <label for="name">Name</label>
+                <input type="text" id="contato_name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="contato_email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="contato_message" rows="12" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
         </div>
     </section>
 </body>

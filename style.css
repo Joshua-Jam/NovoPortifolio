@@ -123,6 +123,7 @@ body {
         border: 1px solid #ff6d00;
         border-radius: 1rem;
         max-width: fit-content;
+        background-color: #222222;
     }
 
     #sobre {
@@ -148,7 +149,7 @@ body {
     }
 
     .sobre_text1 {
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
     }
 
     .sobre_text2 {
@@ -172,11 +173,27 @@ body {
 
     .skills_text1 {
         margin: auto;
+        margin-bottom: 7rem;
     }
 
     .skills_card {
         margin: auto;
         display: flex;
+    }
+
+    .skills_hard {
+        margin-right: 10rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skills_soft {
+        margin-left: 10rem;
+    }
+
+    .skills_skills {
+        margin: 1rem;
     }
 
 }
